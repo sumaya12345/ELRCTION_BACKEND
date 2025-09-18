@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 const User = require("./models/user");
 const Election = require("./models/Election");
-const Candidate = require("./models/Candidate");
+const Candidate = require("./models/candidate");
 const Admin = require("./models/AdminSchema");
 const Complaint = require("./models/Complaint");
 
