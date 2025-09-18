@@ -18,7 +18,7 @@ app.use(cors());
 
 // MongoDB connection
 mongoose
-  .connect("mongodb://localhost:27017/OC")
+  .connect("mongodb+srv://sumayaupdyrizak_db_user:ZzcqOm7rLHuFKY6a@electionsys.aa3whww.mongodb.net/")
   .then(() => console.log("Database connected"))
   .catch((err) => console.error("DB connection error:", err));
 
